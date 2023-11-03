@@ -1,4 +1,7 @@
 > userSelector.vue   
+ 
+ ![userSelector](../image/userSelector.png)
+
 ```html
 <template>
   <a-modal v-model:visible="visible" title="用户选择" :width="1000" :mask-closable="false" :destroy-on-close="true" @ok="handleOk" @cancel="handleClose">
