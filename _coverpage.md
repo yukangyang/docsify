@@ -5,4 +5,4 @@
 - 无需生成 html 文件
 - 众多主题
 
-[开始](zh-cn/selector.md)
+[Getting Started](zh-cn/selector.md)

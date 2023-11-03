@@ -31,7 +31,7 @@
     </div>
     <script>
       window.$docsify = {
-        name: "",
+        name: "演示文档",
         repo: "",
         //自定义sidebar
         loadSidebar: true,
@@ -43,7 +43,17 @@
         coverpage: true,
 
         search: "auto", // 默认值
-        count: { countable: true, fontsize: "0.9em", color: "rgb(90,90,90)", language: "chinese" }
+        count: { countable: true, fontsize: "0.9em", color: "rgb(90,90,90)", language: "chinese" },
+        pagination: {
+          previousText: "上一章节",
+          // or
+          nextText: {
+            "/en/": "NEXT",
+            "/": "下一章节"
+          },
+          crossChapter: true,
+          crossChapterText: true
+        }
       };
     </script>
     <!-- Docsify v4 -->
